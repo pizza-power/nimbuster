@@ -38,7 +38,7 @@ for i in 0 ..< words.len:
     for j in 0 ..< extension_array.len:
       final_url = url & "/" & words[i] & "." & extension_array[j]
       try:
-          let response = client.request(final_url, httpMethod = HttpGet)
+          let response = client.request(final_url, httpMethod = HttpHead)
           let status_code = response.status.split(' ')[0]
           if status_code == "200":
             if write_to_file:
@@ -52,7 +52,7 @@ for i in 0 ..< words.len:
   else:
     final_url = url & "/" & words[i]
     try:
-        let response = client.request(final_url, httpMethod = HttpGet)
+        let response = client.request(final_url, httpMethod = HttpHead)
         let status_code = response.status.split(' ')[0]
         if status_code == "200":
           if write_to_file:

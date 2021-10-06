@@ -22,6 +22,7 @@ https://nim-lang.org/install.html
 ``` ./nimbuster -u:https://pizzapower.me -w:/path/to/your/wordlist```
 
 to search for files
+
 ``` ./nimbuster -u:https://pizzapower.me -w:/path/to/your/wordlist -x:txt,jpeg```
 
 output to a file - hardcoded as output.txt right now
