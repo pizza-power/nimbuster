@@ -21,3 +21,6 @@ run
 
 ``` ./nimbuster -u:http://pizzapower.me -w:/path/to/your/wordlist```
 
+## todo
+
+Pretty much everything
