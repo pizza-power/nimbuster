@@ -5,7 +5,7 @@ Why did I create this program? I wanted to learn nim. Every other language has a
 
 ## to run
 
-**install Nim **
+**install Nim**
 
 https://nim-lang.org/install.html
 
@@ -22,7 +22,8 @@ https://nim-lang.org/install.html
 ``` ./nimbuster -u:http://pizzapower.me -w:/path/to/your/wordlist```
 
 **alternate method**
-Download the latest release and run. It has only been tested on Ubuntu 21.04. 
+
+Download the latest release. It has only been tested on Ubuntu 21.04. 
 
 ## todo
 
