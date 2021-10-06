@@ -5,21 +5,24 @@ Why did I create this program? I wanted to learn nim. Every other language has a
 
 ## to run
 
-install Nim 
+**install Nim **
 
 https://nim-lang.org/install.html
 
-clone this repo
+**clone this repo**
 
 ```git clone https://github.com/pizza-power/nimbuster.git```
 
-compile nimbuster.nim
+**compile nimbuster.nim**
 
-```nim c -d:ssl nimbuster```
+```nim c -d:release -d:ssl nimbuster```
 
-run
+**run**
 
 ``` ./nimbuster -u:http://pizzapower.me -w:/path/to/your/wordlist```
+
+**alternate method**
+Download the latest release and run. It has only been tested on Ubuntu 21.04. 
 
 ## todo
 
